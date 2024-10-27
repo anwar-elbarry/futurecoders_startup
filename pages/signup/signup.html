@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <link rel="stylesheet" href="signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/normalize.css" />
+    <link rel="stylesheet" href="../../assets/css/global.css" />
+    <title>SingUp</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div>
+          <a href="../../index.html" class="logo"
+            ><span>Future</span><span>Coders</span></a
+          >
+        </div>
+        <div class="links-div">
+          <ul class="links" id="sidenav">
+            <li><a href="../../index.html">Home</a></li>
+            <li>
+              <a href="../products/products.html?category=all">Products</a>
+            </li>
+            <li><a href="../../index.html#faq">FAQ</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+            <li><a href="../login/login.html">login</a></li>
+          </ul>
+        </div>
+        <div class="icon-div">
+          <ul>
+            <li class="search-chart">
+              <i class="fa-solid fa-cart-shopping fa-xl"></i>
+            </li>
+            <li class="search-chart">
+              <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            </li>
+            <li id="burger-icon" class="menu">
+              <i class="fa-solid fa-bars fa-xl"></i>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <section class="login_form">
+        <img
+          class="login-img"
+          src="../../assets/images/login.png"
+          alt=""
+          width="200px"
+          height="200px"
+        />
+        <form class="form_log" method="Post" action="../../index.html">
+          <h1 class="login_title">create an account</h1>
+          <h3>Enter your details below</h3>
+          <input class="filbox" type="text" placeholder="Name" required />
+          <input
+            class="filbox"
+            type="email"
+            placeholder="Email or Phone Number"
+            required
+          />
+          <input
+            class="filbox"
+            type="password"
+            placeholder="Password"
+            required
+          />
+          <div class="signup_btn">
+            <input class="green" type="submit" value="Create Account" />
+            <button id="google_btn">
+              <img
+                class="google_icon"
+                src="../../assets/icons/Icon-Google.svg"
+                alt=""
+                width="18"
+              />Sign up with Google
+            </button>
+          </div>
+          <h3 class="have_account">
+            already have account?<a class="log_alt" href="../login/login.html"
+              >Log in</a
+            >
+          </h3>
+        </form>
+      </section>
+    </main>
+    <!-- Footer section -->
+    <footer>
+      <div class="container">
+        <!-- Logo and social media links -->
+        <div class="box">
+          <a href="../../index.html"><span>Future</span><span>Coders</span></a>
+          <div class="social-media">
+            <ul>
+              <li>
+                <a href=""><i class="fa-brands fa-facebook fa-2xl"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-instagram fa-2xl"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-twitter fa-2xl"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Quick links section -->
+        <div class="quick-link">
+          <p>Quick Link</p>
+          <ul>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms Of Use</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Support contact details -->
+        <div class="support">
+          <p>Support</p>
+          <ul>
+            <li>
+              <a
+                href="https://www.google.com/maps/@48.709744,2.16754,16z?hl=fr"
+                target="_blank"
+                >Safi-marrakech</a
+              >
+            </li>
+            <li>
+              <a href="mailto:FutureCoders@gmail.com">FutureCoders@gmail.com</a>
+            </li>
+            <li><a href="tel:+88015-88888-9999">+88015-88888-9999</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Copyright notice -->
+      <p class="copyright">© Copyright Rimel 2024. All right reserved</p>
+    </footer>
+    <script src="../../assets/scripts/script.js"></script>
+  </body>
+</html>

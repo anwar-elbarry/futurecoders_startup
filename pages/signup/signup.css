@@ -1,0 +1,137 @@
+header nav.container {
+  display: flex;
+  font-size: 1.6rem;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.login_form {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  margin: 10rem 0px;
+}
+.login_title{
+  font-size: 3.16rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+h3{
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+.form_log {
+  display: flex;
+  margin-left: 4rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.filbox {
+  border-width: 0px 0px 1px 0px;
+  outline: none;
+  padding-right: 15rem;
+  margin: 2rem 0px;
+  font-size: 1.5rem;
+  padding-bottom: 0.7rem;
+}
+.login_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Forget {
+  font-size: 1.6rem;
+  color: #109810;
+  text-decoration: none;
+}
+.login-img {
+  width: 55rem;
+  height: 55rem;
+}
+.btn {
+  background-color: #109810;
+  border-width: 0px;
+  padding: 1.5rem 4rem;
+  border-radius: 0.3rem;
+  color: white;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.signup_btn {
+  display: flex;
+  flex-direction: column;
+  input,
+  button {
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+  }
+}
+.green {
+  background-color: #109810;
+  color: white;
+  border-width: 0.1rem;
+  border-color: grey;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.green:hover {
+  background-color: #000;
+}
+#google_btn {
+  background-color: #fff;
+  border: 0.1rem solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+  transition: all 0.2s linear;
+}
+#google_btn:hover {
+  border: 0.15rem solid #109810;
+}
+.google_icon {
+  margin-right: 1rem;
+}
+.have_account {
+  color: gray;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+.log_alt {
+  color: #000;
+  margin-left: 1rem;
+  text-decoration: underline;
+}
+/********** Media queries **********/
+/******** Laptop *********/
+@media (max-width: 1024px) {
+}
+
+/******** Tablet *********/
+@media (max-width: 768px) {
+}
+/******** Mobile *********/
+@media (max-width: 440px) {
+  .login-img {
+    width: 40rem;
+    height: 40rem;
+    border-radius: 20rem;
+  }
+  .login_form {
+    font-size: 10px;
+    flex-direction: column;
+  }
+  .filbox {
+    font-size: 2rem;
+  }
+  .login_title {
+    text-align: center;
+    font-size: 5rem;
+  }
+}

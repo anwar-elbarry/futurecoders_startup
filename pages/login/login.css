@@ -1,0 +1,85 @@
+.login_form{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin: 10rem 0px;
+}
+.login_title{
+    font-size: 3.16rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+h4{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+}
+.form_log{
+    display: flex;
+    margin-left: 4rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.filbox{
+    border-width: 0px 0px 1px 0px;
+    outline: none;
+    padding-right: 15rem;
+    margin: 2rem 0px;
+    font-size: 1.5rem;
+    padding-bottom: 0.7rem;
+}
+.login_btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Forget{
+    font-size: 1.6rem;
+    color: #109810;
+    text-decoration: none;
+}
+.login-img{
+    width: 55rem;
+    height: 55rem;
+}
+.btn{
+    background-color: #109810;
+    border-width: 0px;
+    padding: 1.5rem 4rem;
+    border-radius: 0.3rem;
+    color: white;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.btn:hover {
+    background-color: black;
+}
+/********** Media queries **********/
+/******** Laptop *********/
+@media (max-width: 1024px) {
+
+}
+  
+/******** Tablet *********/
+@media (max-width: 768px) {
+.login-img{
+    width: 40rem;
+    height: 40rem;
+}
+}
+/******** Mobile *********/
+@media (max-width: 440px) {
+.login-img{
+    width: 40rem;
+    height: 40rem;
+    border-radius: 20rem;
+}
+.login_form{
+    flex-direction: column;
+}
+.login_title{
+    text-align: center;
+    font-size: 5rem;
+}
+}
